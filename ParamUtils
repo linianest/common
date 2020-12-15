@@ -1,0 +1,16 @@
+
+
+
+
+object ParamUtils {
+
+  /**
+   * 从json对象中获取参数
+   * @param jsonObject 参数对象
+   * @param field 参数
+   */
+  def getParam(jsonObject: JsonObject,field:String): Unit ={
+    jsonObject.getString(field)
+  }
+
+}
